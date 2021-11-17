@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Sora:wght@800&display=swap');
+
+body {
+    width: 100%;
+}
+
+h3 {
+    font-size: 72px;
+    padding: 2rem;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Sora', sans-serif;
+}
+
+.brand-logo {
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Sora', sans-serif;    
+}
