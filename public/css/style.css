@@ -8,13 +8,15 @@
 
 body {
     width: 100%;
-    background-color: #DDD;
 }
 
 h3 {
     font-size: 72px;
     font-family: 'Bebas Neue', cursive;
     font-family: 'Sora', sans-serif;
+    margin-top: 7rem;
+    color: #ec407a;
+    text-decoration: underline;
 }
 
 .main-container {
@@ -26,14 +28,20 @@ h3 {
     font-family: 'Sora', sans-serif;    
 }
 
+.nav {
+    overflow: hidden;
+    position: fixed;
+    padding-left: 1rem;
+}
+
 /* End Main Styles */
 
 /* About Page */
 
 .collage {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     background-color: red;
 }
 
