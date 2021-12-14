@@ -15,21 +15,6 @@ h3 {
     font-size: 35px;
     font-family: 'Bebas Neue', cursive;
     font-family: 'Sora', sans-serif;
-    color: White;
-}
-
-h1{
-    margin: 0;
-    color: white;
-}
-
-
-
-#modal {
-    position: absolute;
-    right: 0;
-    background-color: green;
-    width: 250px;
 }
 
 .main-container {
@@ -52,7 +37,7 @@ h1{
 }
 
 .contact {
-    background-color: #616161;
+    background-color: #ddd;
 }
 
 .body {
@@ -60,8 +45,8 @@ h1{
 }
 
 .contact-info {
-    color: black;
     font-size: 24px;
+    font-weight: 700;
 }
 
 .contact-grid {
@@ -83,6 +68,7 @@ h1{
 
 .contact-grid .row {
     padding: 10px 0 0 0;
+    width: 100%;
 }
 
 .contact-grid h4 {
@@ -101,7 +87,22 @@ h1{
 }
 
 .grid-1 {
-    align-content: center;
+    display: grid;
+    justify-content: center;
+}
+
+.socials i {
+    font-size: 40px;
+}
+
+.socials a {
+    color: black;
+    text-decoration: none;
+}
+
+.socials i:hover {
+    color: #74afce;
+    cursor: pointer;
 }
 
 
@@ -157,9 +158,6 @@ h1{
     grid-column: 1 / 5;
     grid-row: 4;
     width: 100%;
-    
-
-    background-color: lavender;
 }
 
 .intro {
