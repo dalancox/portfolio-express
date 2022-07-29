@@ -1,17 +1,9 @@
 const path = require('path');
 const express = require('express');
-const mongoose = require('mongoose');
-const dotenv = require('dotenv');
 const { engine } = require('express-handlebars');
-const connectDB = require('./config/db');
 const rateLimit = require("express-rate-limit");
 
 // Load config
-dotenv.config({ path: './config/config.env' });
-
-// connecting to DB
-
-connectDB();
 
 // Start Express
 const app = express();
@@ -39,7 +31,6 @@ app.use(limiter);
 
 //Routes
 app.use('/', require('./routes/index'));
-app.use('/messages', require('./routes/message'));
 
 // Port 
 const PORT = process.env.PORT || 3000;
@@ -47,5 +38,5 @@ const PORT = process.env.PORT || 3000;
 // Starting Server
 app.listen(
     PORT,
-    console.log(`Server running on ${process.env.NODE_ENV} mode on port ${PORT}`)
+    console.log(`Server running on mode on port ${PORT}`)
 );

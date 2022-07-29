@@ -11,6 +11,12 @@ body {
     background-color: #eeeeee;
 }
 
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
 h3 {
     font-size: 35px;
     font-family: 'Bebas Neue', cursive;
@@ -204,9 +210,17 @@ h3 {
     bottom: 15px;
 }
 
+.btn-website {
+    position: absolute;
+    bottom: 15px;
+    left: 7rem;
+}
+
 .dashboard-wrapper {
     margin-top: 5rem;
 }
+
+
 /* Start dashboard */
 
 @media screen and (max-width: 992px) {
